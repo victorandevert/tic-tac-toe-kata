@@ -1,7 +1,7 @@
-let convert = {};
-
-convert.helloWorld = function() {
-    return 'Hello world!';
+class TicTacToe {
+    greetings(){
+        return  'Hello world!';
+    }
 }
 
-module.exports = convert;
+module.exports = new TicTacToe();
